@@ -81,14 +81,14 @@ echo "just before helm env"
 {HELM_PATH} env
 
 
-export PROXY=proxy.open.ch:8080
-export NO_PROXY=localhost,.open.ch
-export http_proxy=http://proxy.open.ch:8080
-export ALL_PROXY=proxy.open.ch:8080
-export https_proxy=http://proxy.open.ch:8080
-export HTTPS_PROXY=http://proxy.open.ch:8080
-export no_proxy=localhost,.open.ch
-export HTTP_PROXY=http://proxy.open.ch:8080
+#export PROXY=proxy.open.ch:8080
+#export NO_PROXY=localhost,.open.ch
+#export http_proxy=http://proxy.open.ch:8080
+#export ALL_PROXY=proxy.open.ch:8080
+#export https_proxy=http://proxy.open.ch:8080
+#export HTTPS_PROXY=http://proxy.open.ch:8080
+#export no_proxy=localhost,.open.ch
+#export HTTP_PROXY=http://proxy.open.ch:8080
 
 printenv
 

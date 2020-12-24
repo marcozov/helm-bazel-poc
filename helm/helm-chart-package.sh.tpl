@@ -77,6 +77,7 @@ if [ -n $DIGEST_PATH ] && [ "$DIGEST_PATH" != "" ]; then
     fi
 fi
 
+echo "just before helm env"
 {HELM_PATH} env
 
 # {HELM_PATH} repo list

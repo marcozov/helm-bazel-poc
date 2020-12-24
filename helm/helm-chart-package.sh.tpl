@@ -4,6 +4,7 @@ set -e
 set -o pipefail
 
 TEMP_FILES="$(mktemp -t 2>/dev/null || mktemp -t 'helm_release_files')"
+print "test test test!! bazel and helm!"
 
 # Export XDG directories to get access to
 # helm user defined repos

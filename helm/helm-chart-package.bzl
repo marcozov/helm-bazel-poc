@@ -18,6 +18,7 @@ def _helm_chart_impl(ctx):
         srcs: Source files to include as the helm chart. Typically this will just be glob(["**"]).
         update_deps: Whether or not to run a helm dependency update prior to packaging.
     """
+    print("test inside bazel")
     chart_root_path = ""
     tmp_chart_root = ""
     tmp_chart_values_path = ""

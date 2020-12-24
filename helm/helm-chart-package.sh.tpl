@@ -79,6 +79,9 @@ fi
 
 echo "just before helm env"
 {HELM_PATH} env
+
+printenv
+
 echo "just after helm env"
 
 # {HELM_PATH} repo list

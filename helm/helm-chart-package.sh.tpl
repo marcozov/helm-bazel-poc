@@ -4,7 +4,6 @@ set -e
 set -o pipefail
 
 TEMP_FILES="$(mktemp -t 2>/dev/null || mktemp -t 'helm_release_files')"
-exit 10
 print "test test test!! bazel and helm!"
 
 # Export XDG directories to get access to

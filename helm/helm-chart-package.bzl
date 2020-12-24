@@ -71,6 +71,7 @@ def _helm_chart_impl(ctx):
                 command = "cp $1 $2",
             )
 
+    print("asdlolxd")
     if tmp_chart_root == "":
         print("Chart.yaml not Found !!!!!!!!@@@@@@@")
 

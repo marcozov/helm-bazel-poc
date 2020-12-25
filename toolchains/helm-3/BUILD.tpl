@@ -6,7 +6,7 @@ package(default_visibility = ["//visibility:public"])
 load("@com_github_masmovil_bazel_rules//toolchains/helm-3:toolchain.bzl", "helm_toolchain")
 
 helm_toolchain(
-    name = "helm_v3.4.1_darwin_2",
+    name = "helm_v3.4.1_darwin",
     #tool = "@helm_v3.4.1_darwin//:helm",
     tool = "@helm_darwin//:helm",
     helm_version = "3.4.1",
@@ -17,7 +17,7 @@ helm_toolchain(
 )
 
 helm_toolchain(
-    name = "helm_v3.4.1_linux_2",
+    name = "helm_v3.4.1_linux",
     #tool = "@helm_v3.4.1_linux//:helm",
     tool = "@helm_linux//:helm",
     helm_version = "3.4.1",

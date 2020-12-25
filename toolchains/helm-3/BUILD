@@ -14,7 +14,7 @@ toolchain(
         "@platforms//os:linux",
         "@platforms//cpu:x86_64",
     ],
-    toolchain = "@helm_toolchain_configure//:helm_v3.4.1_linux_2",
+    toolchain = "@helm_toolchain_configure//:helm_v3.4.1_linux",
     toolchain_type = ":toolchain_type",
 )
 
@@ -23,6 +23,6 @@ toolchain(
     target_compatible_with = [
         "@bazel_tools//platforms:osx",
     ],
-    toolchain = "@helm_toolchain_configure//:helm_v3.4.1_darwin_2",
+    toolchain = "@helm_toolchain_configure//:helm_v3.4.1_darwin",
     toolchain_type = ":toolchain_type",
 )

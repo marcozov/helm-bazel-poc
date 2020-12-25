@@ -7,7 +7,8 @@ load("@com_github_masmovil_bazel_rules//toolchains/helm-3:toolchain.bzl", "helm_
 
 helm_toolchain(
     name = "helm_v3.4.1_darwin_2",
-    tool = "@helm_v3.4.1_darwin//:helm",
+    #tool = "@helm_v3.4.1_darwin//:helm",
+    tool = "@helm_darwin//:helm",
     helm_version = "3.4.1",
     helm_xdg_data_home = "%{HOME}/Library",
     helm_xdg_config_home = "%{HOME}/Library/Preferences",
@@ -17,7 +18,8 @@ helm_toolchain(
 
 helm_toolchain(
     name = "helm_v3.4.1_linux_2",
-    tool = "@helm_v3.4.1_linux//:helm",
+    #tool = "@helm_v3.4.1_linux//:helm",
+    tool = "@helm_linux//:helm",
     helm_version = "3.4.1",
     helm_xdg_data_home = "%{HOME}/.local/share",
     helm_xdg_config_home = "%{HOME}/.config",
